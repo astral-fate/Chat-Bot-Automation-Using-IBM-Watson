@@ -1,0 +1,253 @@
+{
+  "id": "485e8d90-9868-4dc3-9c99-498070f2d8b4",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Hi! How are you doing?",
+            "Hello! How can I help you?",
+            "Good day! What can I do for you today?",
+            "Greetings! How can I assist?"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Let us chat! What's your name?",
+            "Get to know each other, what's your name?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "just going to say hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5b51e17c-98ed-41c8-ac45-2dae997ef65d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "heya",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6eab992a-706b-4093-be98-f747ce4ae50e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "77ed9859-efb4-4bd3-b4ee-a3f3574f7cf1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "howdy",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "10ad337a-4a22-4622-a451-e40ac45aa9fd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "feabc083-3af3-4bc3-9aee-b880a288ad00",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi there",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "2ef2b51d-0cd2-4c94-891d-fd448d313d91",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "greetings",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1e37bf2b-06a4-4842-aa0f-e8bfdbc4b43e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d8236817-73da-4b53-9a49-7960b339d20e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "long time no see",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e4b1ad78-7a47-494a-b2ba-b7d67e315ee6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a4862c20-2080-48b4-8f50-545cfd5a05be",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "lovely day isn't it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e121c444-2f20-4bcc-9cdb-a2180642354b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I greet you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a405a7c0-a042-41c1-becd-8395172bcc81",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello again",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b6f154bc-c883-48e0-bc53-45110ec2d7b3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ca65df23-18d8-4b77-aa95-0120c0508e57",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b38d785c-ef14-4dce-89aa-f1a6bf2939dc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "a good day",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b4e9d6eb-16ab-4c86-8c19-4a416cc6d349",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
