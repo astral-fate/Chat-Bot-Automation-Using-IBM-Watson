@@ -34,3 +34,4 @@ https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?region=eu-
 ## Setting the APK key
 https://eu-gb.assistant.watson.cloud.ibm.com/crn%3Av1%3Abluemix%3Apublic%3Aconversation%3Aeu-gb%3Aa%2Fea46fac7f0374181898774f6d9443580%3Ae5a2491b-199d-4c01-897b-d06027bd9b87%3A%3A/assistants/6a75f601-50f3-4d63-a019-cc75db12b667/environments/000d65ed-79cf-4cca-9bc8-22dd822215ea/apidetails
 
+![image](https://user-images.githubusercontent.com/63984422/196562233-b6e6af46-fa9d-4ddb-a420-9bee9c7ada13.png)
